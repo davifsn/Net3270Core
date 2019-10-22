@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net3270CoreLib", "Net3270CoreLib\Net3270CoreLib.csproj", "{96453AC5-4ECF-4C06-ABF9-ABF2FFE67FC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net3270CoreLibTest", "Net3270CoreLibTest\Net3270CoreLibTest.csproj", "{F5A5D3DB-6325-4CE5-A44E-A1ED4B408711}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{96453AC5-4ECF-4C06-ABF9-ABF2FFE67FC5}.Release|x64.Build.0 = Release|Any CPU
 		{96453AC5-4ECF-4C06-ABF9-ABF2FFE67FC5}.Release|x86.ActiveCfg = Release|Any CPU
 		{96453AC5-4ECF-4C06-ABF9-ABF2FFE67FC5}.Release|x86.Build.0 = Release|Any CPU
+		{F5A5D3DB-6325-4CE5-A44E-A1ED4B408711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A5D3DB-6325-4CE5-A44E-A1ED4B408711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A5D3DB-6325-4CE5-A44E-A1ED4B408711}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F5A5D3DB-6325-4CE5-A44E-A1ED4B408711}.Debug|x64.Build.0 = Debug|Any CPU
+		{F5A5D3DB-6325-4CE5-A44E-A1ED4B408711}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F5A5D3DB-6325-4CE5-A44E-A1ED4B408711}.Debug|x86.Build.0 = Debug|Any CPU
+		{F5A5D3DB-6325-4CE5-A44E-A1ED4B408711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A5D3DB-6325-4CE5-A44E-A1ED4B408711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A5D3DB-6325-4CE5-A44E-A1ED4B408711}.Release|x64.ActiveCfg = Release|Any CPU
+		{F5A5D3DB-6325-4CE5-A44E-A1ED4B408711}.Release|x64.Build.0 = Release|Any CPU
+		{F5A5D3DB-6325-4CE5-A44E-A1ED4B408711}.Release|x86.ActiveCfg = Release|Any CPU
+		{F5A5D3DB-6325-4CE5-A44E-A1ED4B408711}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

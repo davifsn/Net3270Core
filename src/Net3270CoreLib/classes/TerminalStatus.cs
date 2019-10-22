@@ -41,7 +41,7 @@ namespace Net3270CoreLib
                 CursorRow = int.Parse(fields[8]) + 1;
                 CursorColumn = int.Parse(fields[9]) + 1;
                 WindowID = fields[10];
-                CommandExecutionTime = float.Parse(fields[11]);
+                CommandExecutionTime = float.Parse(fields[11].Replace("-","0"));
             }
             catch (System.Exception ex)
             {
