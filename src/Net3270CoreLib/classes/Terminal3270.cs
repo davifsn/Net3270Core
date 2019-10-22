@@ -6,7 +6,7 @@ namespace Net3270CoreLib
 {
     /// <summary>Class <c>Terminal</c> representa um emulador de terminal 3270</summary>
     /// <remarks>Envelopa a utilização do s3270 para automação do emulador de terminal</remarks>
-    class Terminal
+    public class Terminal3270
     {
         public String ModelNumber { get; set; }
         public String Address { get; set; }
@@ -22,11 +22,11 @@ namespace Net3270CoreLib
         protected StreamReader TerminalOutput;
         protected StreamReader TerminalError;
 
-        public TerminalScreen Screen;
-        protected TerminalCommand Command;
-        public TerminalStatus Status;
+        TerminalScreen Screen;
+        TerminalCommand Command;
+        TerminalStatus Status;
 
-        public Terminal(String modelNumber, String address, int portNumber, bool visible = true, int scriptPort = 17938)
+        public Terminal3270(String modelNumber, String address, int portNumber, bool visible = true, int scriptPort = 17938)
         {
             this.Address = address;
             this.ModelNumber = modelNumber;

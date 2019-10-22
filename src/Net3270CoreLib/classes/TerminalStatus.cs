@@ -5,7 +5,7 @@ namespace Net3270CoreLib
 {
     /// <summary>Class <c>Status</c> representa a barra de Status do terminal</summary>
     /// <remarks>Engloba os métodos de interação com o terminal</remarks>
-    class TerminalStatus
+    public class TerminalStatus
     {
 
         public String StatusLine { get; private set; }
