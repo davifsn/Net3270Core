@@ -50,7 +50,7 @@ namespace Net3270CoreLib
             Emulator.StartInfo.Arguments =
                 "-model " + ModelNumber +
                 "-scriptport " + ScriptPort.ToString() +
-                " L:Y:" + Address +
+                Address +
                 (PortNumber != 0 ? (":" + PortNumber.ToString()) : "");
 
             Wrapper.StartInfo.UseShellExecute = false;
