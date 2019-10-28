@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Net3270CoreLib\Net3270CoreLib.csproj" />
+    <ProjectReference Include="..\..\src\Net3270CoreLib\Net3270CoreLib.csproj" />
   </ItemGroup>
 
 </Project>
