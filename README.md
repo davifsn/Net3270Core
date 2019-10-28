@@ -2,3 +2,5 @@
 # Net3270Core
 
 x3270 Manipulation Library
+
+This is a Work in Progress.
